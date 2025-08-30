@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Russo One', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* The background will be set by App.js */
+  background-color: #1a1a2e; /* Fallback color */
+  color: #e0e0e0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-title {
+  font-family: 'Russo One', serif;
+  font-weight: 700;
+  color: #f50057; /* A vibrant accent color */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.fab-button {
+  position: fixed !important;
+  bottom: 32px !important;
+  right: 32px !important;
+  background: linear-gradient(45deg, #f50057 30%, #ff8e53 90%);
+  color: white !important;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.fab-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px 4px rgba(255, 105, 135, .3) !important;
+}
+
+.fab-button.Mui-disabled {
+  background: #555 !important;
+  cursor: not-allowed !important;
+}
